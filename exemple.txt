@@ -1,0 +1,53 @@
+<div class="container">
+	<ul>
+		<li href="#intro_hello" >Accueil</li>
+    	<li href="#section background" >A propos</li>
+    	<li href="#section featured-projects" >Projets</li>
+    	<li href="#footer" >Contact</li>
+	</ul>
+    
+</div>
+
+<?php
+	include("header.php");
+?>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Edem kossi AGBOGLO | Web Developer</title>
+	<link rel="icon" type="image/png" href="images/male-technologist.png" hreflang="en-us">
+	<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+  <div class="container">
+    <!-- Logo / Nom -->
+    <a class="navbar-brand fw-bold text-primary" href="#intro_hello">Mon portfolio</a>
+
+    <!-- Bouton menu hamburger -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+      aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Liens -->
+    <div class="collapse navbar-collapse" id="navbarMenu">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="#intro_hello">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="#section-about">À propos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#section-featured-projects">Projets</a></li>
+        <li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
