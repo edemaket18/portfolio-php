@@ -1,0 +1,10 @@
+{
+  "name": "mon-portfolio/php",
+  "description": "Portfolio personnel en PHP et JavaScript",
+  "require": {
+    "php": ">=8.0"
+  },
+  "scripts": {
+    "start": "php -S 0.0.0.0:$PORT -t ."
+  }
+}
