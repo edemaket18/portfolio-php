@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: portfolio-php
+    env: php
+    rootDir: portfolio
+    buildCommand: ""
+    startCommand: "php -S 0.0.0.0:10000 -t ."
+    plan: free
+    region: frankfurt   
+    autoDeploy: true
+
+    envVars:
+      - key: APP_ENV
+        value: production
